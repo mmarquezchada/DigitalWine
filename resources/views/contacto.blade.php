@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('content')
 
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -21,7 +22,7 @@
 
     <!--Font Awesome -->
     <script src="https://kit.fontawesome.com/c7094aec04.js"></script>
-    <title>Formulario de contacto</title>
+    <title>Contacto</title>
   </head>
   <body>
 
@@ -31,9 +32,10 @@
         <hr>
           <div class="row">
             <div class="col-md-6">
-              <address>sarasa sarasa</address>
-              <p>Email: email@email.com</p>
-              <p>Phone: 555-5555</p>
+              <address><strong>Adress:</strong> Dorrego 1182, Rosario, Santa Fe</address>
+              <p><strong>Email:</strong> digitalwine@gmail.com</p>
+              <p><strong>Phone: </strong> 543416934995</p>
+              <p>Lunes a Viernes de 10 a 18 hs.</p>
             </div>
             <form class="col-md-6" action="contacto2.php" method="POST">
               <div class="form-group">
@@ -59,5 +61,7 @@
     </body>
   </html>
 
-  @extends('layouts.footer')
+  @endsection
+
+ 
 

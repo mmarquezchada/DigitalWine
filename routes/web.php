@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
+  /*  $user= auth::user();
+    if ($user->EsAdmin()){
+        echo 'Admin';
+    }
+    else {
+        echo 'Usuario';
+    } */
     return view('welcome');
+
 });
 
 Auth::routes();

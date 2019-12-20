@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('content')
 
 <!DOCTYPE html>
 <html lang="es">
@@ -175,4 +176,4 @@ Por devoluciones ajenas a Digital Wine, se procederá al reintegro del valor de 
 </body>
 </html>
 
-@extends('layouts.footer')
+@endsection
